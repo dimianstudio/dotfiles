@@ -1,0 +1,9 @@
+[user]
+	name = Dmytro Myrhorodskyi
+	email = dimianstudio@gmail.com
+
+[core]
+	editor = vim
+
+[alias]
+	up = pull --rebase --autostash
