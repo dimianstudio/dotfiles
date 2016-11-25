@@ -9,3 +9,5 @@ cp -f .gitconfig ~/.gitconfig
 cp -f .gitignore ~/.gitignore
 cp -f .vimrc ~/.vimrc
 cp -f .zpreztorc ~/.zpreztorc
+
+echo 'export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"' >> ~/.zshrc
