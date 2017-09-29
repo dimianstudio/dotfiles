@@ -46,3 +46,5 @@ brew install docker-compose
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+echo 'export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"' >> ~/.zshrc

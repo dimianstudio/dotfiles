@@ -4,6 +4,3 @@
 
 [core]
 	editor = vim
-
-[alias]
-	up = pull --rebase --autostash
